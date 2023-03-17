@@ -23,6 +23,7 @@ public class EstudiokymApplication {
         
                 }
             };
+System.getenv("JAVA_HOME")
         }
 
 }
