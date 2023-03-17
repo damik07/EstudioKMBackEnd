@@ -10,4 +10,19 @@ public class EstudiokymApplication {
 		SpringApplication.run(EstudiokymApplication.class, args);
 	}
 
+  @Bean
+        public WebMvcConfigurer corsConfigurer(){
+            return new WebMvcConfigurer(){
+                @Override
+                public void addCorsMappings(CorsRegistry registry){
+                    registry.addMapping("/**")
+                    .allowedMethods("*")
+                    .allowedOrigins("*")
+                    .allowedHeaders("*")
+                    ;
+        
+                }
+            };
+        }
+
 }
