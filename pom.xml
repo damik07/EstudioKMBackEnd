@@ -79,11 +79,13 @@
 	  <type>jar</type>
 	 </dependency>
 
-         	 <dependency>
+   <dependency>
 	  <groupId>org.springframework</groupId>
 	  <artifactId>spring-beans</artifactId>
 	  <version>5.3.19</version>
 	 </dependency>
+
+    
 	 <dependency>
 	  <groupId>org.springframework.security</groupId>
 	  <artifactId>spring-security-config</artifactId>
@@ -109,20 +111,21 @@
 	  <type>module</type>
 	 </dependency>
 
-    <!-- agregué a mano las proximas dos dependencias, pero no me cargaban desde netbeans
+    
     <dependency>
-	  <groupId>mysql</groupId>
-	  <artifactId>mysql-connector-java</artifactId>
-	  
+	  <groupId>com.mysql</groupId>
+	  <artifactId>mysql-connector-j</artifactId>
+	  <version>8.0.32</version>
+
 	 </dependency>
 
-    <dependency>
+  <dependency>
 	  <groupId>javax.xml.bind</groupId>
 	  <artifactId>jaxb-api</artifactId>
 	  
-	 </dependency>
+	</dependency>
 
-  fin de las dependencias con posibles errores-->
+ 
     
 	</dependencies>
 
